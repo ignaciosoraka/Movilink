@@ -57,29 +57,7 @@ body {
       transform: translateY(10px);
     }
   }
-/* Ajusta la posición de los elementos */
 
-  /* Animation */
-  .overlay h1, .overlay p {
-    opacity: 0;
-    transform: translateY(-20px);
-    transition: opacity 1s ease, transform 1s ease;
-  }
-
-  .animate {
-    animation: slideIn 0.5s forwards;
-  }
-
-  @keyframes slideIn {
-    0% {
-      opacity: 0;
-      transform: translateY(-20px);
-    }
-    100% {
-      opacity: 1;
-      transform: translateY(0);
-    }
-}
 
 
 .night {
